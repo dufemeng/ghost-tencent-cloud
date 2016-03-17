@@ -1,0 +1,26 @@
+{
+  "name": "ghost-tencentyun",
+  "version": "0.0.1",
+  "description": "tencent store for ghost blog.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dufemeng/ghost-tencentyun.git"
+  },
+  "keywords": [
+    "ghost",
+    "tencent",
+    "ghost-store"
+  ],
+  "author": "qlippie team of tencent",
+  "bugs": {
+    "url": "https://github.com/dufemeng/ghost-tencentyun/issues"
+  },
+  "homepage": "https://github.com/dufemeng/ghost-tencentyun",
+  "dependencies": {
+    "tencentyun": "2.0.2"
+  }
+}
