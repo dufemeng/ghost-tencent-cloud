@@ -37,6 +37,7 @@ npm install
 
 打开根目录下的config.js文件，选择你想要更改的环境，在里面添加一个新的参数`storage`。
     
+<<<<<<< HEAD
 ```js
 storage : {
 	active : 'ghost-tencentyun',
@@ -47,6 +48,18 @@ storage : {
 		bucket : 'your bucket name'
 	}    
 ```
+=======
+    ```js
+    storage : {
+    	active : 'ghost-tencentyun',
+    	'ghost-tencentyun' : {
+    		appId : 'your appId name',
+    		secretId : 'your secretId',
+    		sercetKey : 'your sercetKey',
+    		bucket : 'your bucket name'
+    	}    
+    ```
+>>>>>>> b65dd6ec90bb78cd08bbc0fce51c197b3b852533
 
 ## License
 
