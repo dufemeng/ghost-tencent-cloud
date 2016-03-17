@@ -6,27 +6,27 @@
 
 - git
 
-	为了替换存储模块，需要做以下几件事情：
+为了替换存储模块，需要做以下几件事情：
 
-	- 在/content下面新建一个文件夹/storage；
+- 在/content下面新建一个文件夹/storage；
 
-	- 把这个仓库里的文件克隆到/storage下面
-	
+- 把这个仓库里的文件克隆到/storage下面
 
-	``` 
-	cd [path/to/ghost]/content/storage
 
-	git clone https://github.com/dufemeng/ghost-tencentyun
-	```
+``` 
+cd [path/to/ghost]/content/storage
 
-	- 安装依赖包
-	
+git clone https://github.com/dufemeng/ghost-tencentyun
+```
 
-	```
-	cd ghost-tencentyun
-	
-	npm install
-	```
+- 安装依赖包
+
+
+```
+cd ghost-tencentyun
+
+npm install
+```
 	
 - npm
 	
@@ -37,7 +37,7 @@
 
 打开根目录下的config.js文件，选择你想要更改的环境，在里面添加一个新的参数`storage`。
     
-    ｀｀｀js
+    ```js
     storage : {
     	active : 'ghost-tencentyun',
     	'ghost-tencentyun' : {
