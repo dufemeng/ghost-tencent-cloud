@@ -37,7 +37,7 @@
 
 打开根目录下的config.js文件，选择你想要更改的环境，在里面添加一个新的参数`storage`。
     
-    ｀｀｀js
+    ```js
     storage : {
     	active : 'ghost-tencentyun',
     	'ghost-tencentyun' : {
