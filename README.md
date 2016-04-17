@@ -29,8 +29,12 @@
 	```
 	
 - npm
+
+	- 打开新建的那个/storage文件夹，然后：
 	
-	（不要着急，马上就有）
+	```
+	npm install ghost-tencentyun --save
+	```
 
 
 ## 配置
